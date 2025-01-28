@@ -13,10 +13,10 @@ The repository is organized by lessons, with each lesson directory containing in
 ```
 coding-for-marketers/
 ├── lesson-1/
-│   ├── exercise1.js
-│   ├── exercise2.js
+│   ├── test-1.js
+│   ├── test-2.js
 ├── lesson-2/
-│   ├── exercise1.js
+│   ├── test-1.js
 └── ...
 ```
 
