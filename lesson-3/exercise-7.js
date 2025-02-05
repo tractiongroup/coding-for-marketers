@@ -1,5 +1,5 @@
 // Esercizio 7: Sistema di Scoring Lead Marketing
-// Sistema per valutare i lead basato su diversi criteri e 
+// Sistema per valutare i lead basato su diversi criteri e
 // identificare quelli più promettenti
 
 const marketingLeads = [
@@ -11,28 +11,17 @@ const marketingLeads = [
 
 // Funzione per calcolare il punteggio di engagement
 const calculateEngagementScore = (lead) => {
-    const visitScore = lead.pageVisits * 10;
-    const resourceScore = lead.downloadedResources * 20;
-    const webinarScore = lead.webinarAttendance ? 50 : 0;
-    
-    return visitScore + resourceScore + webinarScore;
+  // TODO
 };
 
 // Funzione per classificare il lead based sul punteggio
 const classifyLead = (score) => {
-    if (score >= 100) return 'Hot';
-    if (score >= 50) return 'Warm';
-    return 'Cold';
+  // TODO
 };
 
 // Analisi completa dei lead
 const analyzedLeads = marketingLeads.map(lead => {
-    const score = calculateEngagementScore(lead);
-    return {
-        ...lead,
-        score: score,
-        classification: classifyLead(score)
-    };
+  // TODO
 });
 
 // Trovare i lead più promettenti (Hot)

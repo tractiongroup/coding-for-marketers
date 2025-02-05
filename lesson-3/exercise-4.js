@@ -1,5 +1,5 @@
-// Esercizio per casa 3: Verifica Obiettivi Marketing
-// Verificare se tutti i canali marketing hanno raggiunto 
+// Esercizio per casa 4: Verifica Obiettivi Marketing
+// Verificare se tutti i canali marketing hanno raggiunto
 // l'obiettivo minimo di conversione
 
 const marketingChannels = [
@@ -10,8 +10,6 @@ const marketingChannels = [
 ];
 
 // Verificare se tutti i canali hanno un tasso di conversione > 2.5%
-const allChannelsPerforming = marketingChannels.every(
-    channel => channel.conversionRate > 2.5
-);
+// const allChannelsPerforming =
 
 console.log('Tutti i canali sopra obiettivo:', allChannelsPerforming);

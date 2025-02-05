@@ -1,5 +1,5 @@
 // Esercizio 6: Analisi Avanzata delle Vendite per Regione
-// Dobbiamo analizzare le vendite per regione, calcolare metriche 
+// Dobbiamo analizzare le vendite per regione, calcolare metriche
 // e trovare le regioni che superano determinati obiettivi
 
 const salesByRegion = [
@@ -10,8 +10,7 @@ const salesByRegion = [
 
 // Funzione per calcolare la media delle vendite
 const calculateAverage = (sales) => {
-    const sum = sales.reduce((acc, curr) => acc + curr, 0);
-    return sum / sales.length;
+    // TODO
 };
 
 // Funzione per determinare se una regione ha performance superiore al target
@@ -19,17 +18,7 @@ const isOverPerforming = (average, target) => average > target;
 
 // Analisi completa delle regioni
 const analyzeRegions = (data) => {
-    return data.map(region => {
-        const avgSales = calculateAverage(region.sales);
-        const isSuccess = isOverPerforming(avgSales, region.target);
-        
-        return {
-            region: region.region,
-            averageSales: avgSales,
-            overTarget: isSuccess,
-            bestMonth: Math.max(...region.sales)
-        };
-    });
+  // TODO
 };
 
 const analysisResults = analyzeRegions(salesByRegion);

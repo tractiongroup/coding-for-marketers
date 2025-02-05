@@ -1,4 +1,4 @@
-// Esercizio in classe: Analisi delle Campagne Marketing
+// Esercizio 1: Analisi delle Campagne Marketing
 // Abbiamo un array di campagne pubblicitarie con il loro budget e ROI.
 // Dobbiamo trovare tutte le campagne che hanno generato un ROI superiore al 200%
 
@@ -10,6 +10,6 @@ const campaigns = [
 ];
 
 // Utilizzare il metodo filter per trovare le campagne con ROI > 200%
-const successfulCampaigns = campaigns.filter(campaign => campaign.roi > 200);
+// const successfulCampaigns =
 
 console.log('Campagne di successo:', successfulCampaigns);

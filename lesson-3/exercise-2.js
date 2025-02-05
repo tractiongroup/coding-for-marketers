@@ -1,5 +1,5 @@
-// Esercizio per casa 1: Segmentazione Cliente
-// Dato un array di clienti, trovare il primo cliente che soddisfa 
+// Esercizio per casa 2: Segmentazione Cliente
+// Dato un array di clienti, trovare il primo cliente che soddisfa
 // determinati criteri di segmentazione
 
 const customers = [
@@ -10,8 +10,6 @@ const customers = [
 ];
 
 // Trovare il primo cliente nel segmento fashion con acquisti > 200€
-const targetCustomer = customers.find(
-    customer => customer.category === 'fashion' && customer.purchases > 200
-);
+// const targetCustomer =
 
 console.log('Cliente target trovato:', targetCustomer);

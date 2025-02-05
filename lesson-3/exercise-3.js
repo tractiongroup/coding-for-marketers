@@ -1,4 +1,4 @@
-// Esercizio per casa 2: Calcolo Revenue Totale
+// Esercizio per casa 3: Calcolo Revenue Totale
 // Calcolare il totale delle vendite per un determinato periodo
 // utilizzando il metodo reduce
 
@@ -10,8 +10,6 @@ const salesData = [
 ];
 
 // Calcolare il revenue totale (prezzo * quantità)
-const totalRevenue = salesData.reduce((acc, sale) => {
-    return acc + (sale.price * sale.quantity);
-}, 0);
+// const totalRevenue =
 
 console.log('Revenue Totale:', totalRevenue);
